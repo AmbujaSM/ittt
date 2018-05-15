@@ -1,0 +1,31 @@
+<html>
+<body background="">
+<?php
+include("header.php");
+<?
+<center>
+<td width="93%" valign="bottom" bordercolor="#000000"> <a href="index.php" class="style4"><-_back_to_view</a></td>
+</center>
+	</br>
+</br>
+</br>
+</br>
+</br>
+
+<form method="POST" action="upload.php" enctype="multipart/form-data">
+Description:(within 100 words) <input type="text" name="desc" style="height:100px; width:1000px;">
+</br>
+Price: <input type="text" name="price">
+</br>
+Upload an image here:
+<input type="hidden" name="MAX_FILE_SIZE" value="2000000" />
+<input id="userfile" type="file" name="userfile" />
+
+<input id="upload" type="submit" name="upload" value="upload" />
+        
+</form>
+
+
+</body>
+</html>
+
